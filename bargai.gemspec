@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "bargai_cli/version"
+require "bargai/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "bargai_cli"
-  spec.version       = BargaiCli::VERSION
+  spec.name          = "bargai"
+  spec.version       = Bargai::VERSION
   spec.authors       = ["Leo Sato"]
   spec.email         = ["leo@i544c.me"]
 
   spec.summary       = "バル街の情報を収集する。"
   spec.description   = "コンソールでバル街の情報を表示したり、加工しやすい形式で保存できたら良いなぁということで出来た。"
-  spec.homepage      = "https://github.com/i544c/bargai_cli"
+  spec.homepage      = "https://github.com/i544c/bargai"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.

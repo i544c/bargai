@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "bargai_cli"
+require "bargai"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
