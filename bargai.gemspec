@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "バル街の情報を収集する。"
   spec.description   = "コンソールでバル街の情報を表示したり、加工しやすい形式で保存できたら良いなぁということで出来た。"
-  spec.homepage      = "https://github.com/i544c/bargai_cli"
+  spec.homepage      = "https://github.com/i544c/bargai"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
