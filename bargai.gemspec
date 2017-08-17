@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "bargai_cli/version"
+require "bargai/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "bargai_cli"
-  spec.version       = BargaiCli::VERSION
+  spec.name          = "bargai"
+  spec.version       = Bargai::VERSION
   spec.authors       = ["Leo Sato"]
   spec.email         = ["leo@i544c.me"]
 
